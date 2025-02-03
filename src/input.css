@@ -3,3 +3,18 @@
 body {
   background-color:floralwhite;
 }
+
+.btn {
+  @apply font-bold px-4 py-2 rounded;
+}
+
+.btn-blue {
+  @apply bg-blue-400 hover:bg-blue-600 text-white;
+}
+
+@theme {
+  --color-primary-100: #ebf8ff;
+  --color-primary-300: #90cdf4;
+  --color-primary-500: #4299e1;
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+}
