@@ -16,5 +16,19 @@
 @theme {
   --color-body: #050505;
   --color-selected-text: #A3A3FF;
-  --color-theme: #5C318C
+  --color-theme: #5C318C;
+  --color-secondary: #9191A4;
 } 
+
+.secondary-title {
+  @apply text-3xl font-bold;
+}
+
+.secondary-title::before {
+  content: "";
+  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.section-paragragh {
+  @apply text-secondary my-6 w-full max-w-3xl;
+}
