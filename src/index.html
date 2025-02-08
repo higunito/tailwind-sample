@@ -34,8 +34,8 @@
             <a href="#portfolio">
               <button>ポートフォリオ</button>
             </a>
-            <a href="#clients">
-              <button>お客様</button>
+            <a href="#skill">
+              <button>スキルスタック</button>
             </a>
             <a href="#contact">
               <button
@@ -81,16 +81,17 @@
           </div>
         </div>
       </div>
+
       <!-- ポートフォリオセクション -->
       <div
         id="portfolio"
-        class="container mt-64 flex justify-between items-center mx-suto px-8 md:px-14 lg:px-24 w-full"
+        class="container mt-64 flex justify-between items-center mx-suto px-8 md:px-14 lg:px-36 w-full"
       >
-        <div>
+        <div class="w-full">
           <section class="w-full">
             <h2 class="secondary-title">私のポートフォリオ</h2>
             <p class="section-paragragh">私が作成したアプリケーション</p>
-            <div class="grid">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <img
                 src="./images/portfolio1.jpg"
                 alt=""
@@ -122,6 +123,184 @@
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
             </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- スキルスタック -->
+      <div
+        id="skill"
+        class="container mt-64 flex justify-between items-center mx-suto px-8 md:px-14 lg:px-36 w-full"
+      >
+          <section class="w-full">
+            <h2 class="secondary-title">スキルスタック</h2>
+            <p class="section-paragragh">使用可能な技術スタック</p>
+            <div class="my-16">
+              <!-- HTML -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-html5 mr-1"></i>
+                    HTML
+                  </h3>
+                  <p class="mt-4">
+                    HTMLはWebページの構造を作成するための言語です。HTMLを使用することで、Webページの見た目や機能を作成することができます。
+                  </p>
+                </div>
+              <!-- CSS -->
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-css mr-1"></i>
+                    CSS</h3>
+                  <p class="mt-4">
+                    CSSはWebページのデザインを作成するための言語です。CSSを使用することで、Webページの見た目を整えることができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">TailwindCSS</h3>
+                  <p class="mt-4">
+                    TailwindCSSはCSSフレームワークです。TailwindCSSを使用することで、Webページのデ
+                    ザインを簡単に作成することができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-js-square mr-1"></i>
+                    JavaScript</h3>
+                  <p class="mt-4">
+                    JavaScriptはWebページの動的な機能を作成するための言語です。JavaScriptを使用することで、Webページに動きを付けることができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">TypeScript</h3>
+                  <p class="mt-4">
+                    TypeScriptはJavaScriptのスーパーセットです。TypeScriptを使用することで、JavaScriptのコードをより安全に書くことができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-react mr-1"></i>
+                    React</h3>
+                  <p class="mt-4">
+                    ReactはFacebookが開発したJavaScriptライブラリです。Reactを使用することで、Webページのコンポーネントを作成することができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">Next.js</h3>
+                  <p class="mt-4">
+                    Next.jsはReactのフレームワークです。Next.jsを使用することで、Reactアプリケーションを簡単に作成することができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-golang mr-1"></i>
+                    Go</h3>
+                  <p class="mt-4">
+                    GoはGoogleが開発したプログラミング言語です。Goを使用することで、Webアプリケーションを高速に作成することができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-aws mr-1"></i>
+                    AWS</h3>
+                  <p class="mt-4">
+                    AWSはAmazonが提供するクラウドサービスです。AWSを使用することで、Webアプリケーションを簡単にデプロイすることができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">Terraform</h3>
+                  <p class="mt-4">
+                    Terraformはインフラストラクチャをコードで管理するためのIaCツールです。Terraformを使用することで、インフラストラクチャを安全に管理することができます。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">
+                    <i class="fa-brands fa-docker mr-1"></i>
+                    Docker</h3>
+                  <p class="mt-4">
+                    Dockerはコンテナ仮想化を行うためのツールです。
+                  </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-md">
+                  <h3 class="font-bold text-2xl">Kubernetes</h3>
+                  <p class="mt-4">
+                    Kubernetesはコンテナオーケストレーションツールです。Kubernetesを使用することで、コンテナを簡単に管理することができます。
+                  </p>
+                </div>
+                
+            </div>
+          </section>
+      </div>
+
+      <!-- お問い合わせ -->
+      <div
+        id="contact"
+        class="container mt-64 flex justify-between items-center mx-suto px-8 md:px-14 lg:px-36 w-full"
+      >
+        <div class="w-full">
+          <!-- お問い合わせフォーム -->
+          <section class="w-full">
+            <h2 class="secondary-title">お問い合わせ</h2>
+            <p class="section-paragragh">お問い合わせは下の連絡先からお願いいたします。</p>
+            <div class="w-full grid gap-8 mt-16">
+              <div>
+                <label class="text-xl font-bold">お客様氏名</label>
+                <input type="text" class="w-full bg-gray-800 p-4 rounded-md mt-2" />
+              </div>
+              <div>
+                <label class="text-xl font-bold">メールアドレス</label>
+                <input type="mail" class="w-full bg-gray-800 p-4 rounded-md mt-2" />
+              </div>
+              <div>
+                <label class="text-xl font-bold">お問い合わせ内容</label>
+                <input type="text" class="w-full bg-gray-800 p-4 rounded-md mt-2" />
+              </div>
+              <div class="flex justify-center">
+                <button
+                class="w-1/4 items-center px-6 py-2 bg-theme font-bold rounded hover:bg-purple-600 transition-all duration-300 mt-10"
+              >
+                <span>送信</span>
+              </button>
+              </div>
+            </div>
+          </section>
+          <!-- プロフィールリンク -->
+          <section class="w-full mt-32">
+            <div class="link-container">
+              <ul class="flex justify-center m-4 px-2 space-x-4">
+                <li>
+                  <a href="https://github.com/your-username" class="text-xl font-bold text-blue-500 hover:underline">
+                    <i class="fa-brands fa-github mr-2"></i>GitHub
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/your-username" class="text-xl font-bold text-blue-500 hover:underline">
+                    <i class="fa-brands fa-twitter mr-2"></i>X (旧Twitter)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://zenn.dev/your-username" class="text-xl font-bold text-blue-500 hover:underline">
+                    <i class="fa-solid fa-book mr-2"></i>Zenn
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <hr class="mt-32 border-gray-600" />
+
+      <!-- トップへ戻るボタン -->
+      <div
+      id="portfolio"
+      class="container mt-16 flex justify-between items-center mx-suto px-8 md:px-14 lg:px-36 w-full"
+      >
+      <div class="w-full">
+        <section class="w-full flex justify-center">
+          <a href="#home" class="px-6 py-2 bg-theme font-bold rounded hover:bg-purple-600 transition-all duration-300">
+            トップへ戻る
+          </a>
           </section>
         </div>
       </div>
